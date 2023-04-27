@@ -1,0 +1,181 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: "calluna", serif;
+	font-weight: 400;
+	font-style: normal;
+	background-color: black;
+	color: white;
+}
+
+p{
+	color: white;
+}
+
+.topnav{
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	text-decoration: none;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid white;
+	font-size: 1.9em;
+}
+
+.topnav a{
+	text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+    color: white;
+    padding-top:15px;
+	padding-right:30px;
+	padding-bottom:15px;
+	padding-left: 30px;
+}
+
+.topnav a:hover{
+	background-color: #eee5d1;
+	color: #1f272a;
+}
+
+.title{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 4em;
+	max-width: 90%;
+	padding-left: 1em;
+}
+
+.title img{
+	width: 40%;
+	height: 40%;
+}
+
+.t_text{
+	color: white;
+	width: 50%;
+	font-size: 2.5em;
+}
+
+.t_text h1{
+	font-family: "calluna", serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.t_text h2{
+	font-weight: 300;
+}
+
+.t_text h3 {
+	font-family: "calluna", serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.intro{
+	border-top: 1px solid white;
+	margin-top: 5em;
+	padding-top: 4em ;
+	padding-bottom: 4em;
+	display: flex;
+	flex-direction: row;
+	color: white;
+	font-size: 1.75em;
+	line-height: 1.6em;
+	justify-content: space-evenly;
+}
+
+.intro div{
+	width: 20%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.design img{
+	width: 30%;
+	height: auto;
+}
+
+.photography img{
+	width: 30%;
+	height: auto;
+}
+
+.program img{
+	width: 30%;
+	height: auto;
+}
+
+.contact{
+	border-top: 1px solid white;
+	font-size: 1.75em;
+	color: white;
+	padding: 2em 5em 2em 5em;
+}
+
+#pageTitle{
+	font-size: 3em;
+	padding: 1.5em 1em 1.5em 1em;
+}
+
+#pageTitle h2{
+	margin-bottom: 3em;
+	margin-top: 3em;
+}
+
+#outputGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5vw;
+}
+
+#outputGrid>a, #outputGrid>a:visited {
+  color: #000;
+  text-decoration: none;
+  border: 1px solid rgba(0,0,0,0.1);
+  padding: 1.25vw;
+  transition: background-color 0.25s;
+  border-radius: 3px;
+}
+
+#outputGrid>a:hover {
+  background-color: #414c50;
+}
+
+.previewTitle {
+  font-weight: bold;
+  margin-bottom: 1.25vw;
+}
+
+.thumbnail {
+  width: 100%;
+  border-radius: 3px;
+  display: flex;
+}
+
+.projectHeroImage {
+	display: block;
+	margin: auto;
+  width: 60%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 2.5vw;
+  border-radius: 6px;
+}
+
+.description {
+  line-height: 2em;
+  font-size: 2em;
+  display: flex;
+  justify-content:center;
+}
