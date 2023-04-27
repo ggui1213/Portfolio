@@ -12,25 +12,25 @@ let portfolioCollection = [
     "description" : "Double exposure of myself and the laundry, reflecting on my live as a female and future.",
     "image" : "img/works/laundry.png"
 },{
-    "itemTitle" : "裂缝/Crack",
+    "itemTitle" : "Crack",
     "category" : "photography",
     "id" : "crack",
     "description" : "creative photography, leaving audience the imagination for the image",
     "image" : "img/works/crack.png"
 },{
-    "itemTitle" : "自我/Self",
+    "itemTitle" : "Self",
     "category" : "photography",
     "id" : "myself",
     "description" : "creative photography, using indoor light to create a double exposure feeling",
     "image" : "img/works/myself.png"
 },{
-    "itemTitle" : "好/GOOD",
+    "itemTitle" : "Good",
     "category" : "photography",
     "id" : "good",
     "description" : "photoshop edited photo, implying censorship, techniques inspired by Gretchen Bender’s Dumping Core, content inspired by Urumqi Protest and A4 Revolutions ",
     "image" : "img/works/good.png"
 },{
-    "itemTitle" : "身份/identity",
+    "itemTitle" : "Identity",
     "category" : "photography",
     "id" : "identity",
     "description" : "photoshop edited photo,",
@@ -51,7 +51,7 @@ let portfolioCollection = [
     "itemTitle" : "Interactive Desktop",
     "category" : "interactive",
     "id" : "desktop",
-    "description" : "An interactive work created in p5.js, presenting a desktop of a person and their little feelings in a stream of consciousness storytelling way, https://editor.p5js.org/yg2841/full/XgWdwkgGn",
+    "description" : "an interactive work created in p5.js, presenting a desktop of a person and their little feelings in a stream of consciousness storytelling way, https://editor.p5js.org/yg2841/full/XgWdwkgGn",
     "image" : "img/works/smile.png"
 },{
     "itemTitle" : "Zodiac Placemat",
@@ -63,7 +63,7 @@ let portfolioCollection = [
     "itemTitle" : "Interactive Kiosk",
     "category" : "interactive",
     "id" : "kiosk",
-    "description" : "Interactive Kiosk of the 12 star zodiac signs, created in ProtoPie",
+    "description" : "Interactive Kiosk of the 12 star zodiac signs, created in ProtoPie. https://drive.google.com/file/d/1LKWtzF2jJnAmTRBpoA_Cxbuq_6Ngb5DA/view?usp=sharing",
     "image" : "img/works/kiosk.png"
 },{
     "itemTitle" : "Dream Receiver",
@@ -71,6 +71,30 @@ let portfolioCollection = [
     "id" : "receiver",
     "description" : "A website contains threshold image of myself reflecting inside a dream, and fragments, https://ggui1213.github.io/JSON/",
     "image" : "img/works/receiver.png"
+},{
+    "itemTitle" : "Bridge",
+    "category" : "photography",
+    "id" : "bridge",
+    "description" : "Williamsburg Bridge and pigeons in protrait mode",
+    "image" : "img/works/bridge.png" 
+},{
+    "itemTitle" : "Frame",
+    "category" : "photography",
+    "id" : "frame",
+    "description" : "Buildings on the street above in the sky in landscape mode",
+    "image" : "img/works/frame.png" 
+},{
+    "itemTitle" : "Silhouette",
+    "category" : "photography",
+    "id" : "silhouette",
+    "description" : "Silhouette of the street light",
+    "image" : "img/works/silhouette.png" 
+},{
+    "itemTitle" : "Untitled",
+    "category" : "interactive",
+    "id" : "untitled",
+    "description" : "an interactive work that reflecting my whole experience on the Internet. https://ggui1213.github.io/Midterm_Mobile/index.html",
+    "image" : "img/works/Untitled.png" 
 }];
 
 
