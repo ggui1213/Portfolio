@@ -115,11 +115,11 @@ document.addEventListener("DOMContentLoaded", function(){
 
     /* Set page title if we are in a specific section */
     if (urlSection == "photography") {
-      pageTitleElement.innerText = "photography:";
+      pageTitleElement.innerText = "Photography Works:";
     }else if (urlSection == "interactive") {
-      pageTitleElement.innerText = "interactive:";
+      pageTitleElement.innerText = "Interactive Works:";
     }else if (urlSection == "visual") {
-      pageTitleElement.innerText = "visual:";
+      pageTitleElement.innerText = "Visual Works:";
     }
 
     /* Create thumbnails for matching category, or all */
